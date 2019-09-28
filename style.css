@@ -148,7 +148,6 @@ header{
 	padding: 30px 0 90px 0;
 	margin: 0 auto;
 	font-size: 60px;
-	text-align: center;
 }
 .strength1{
 	width: 320px;
@@ -166,6 +165,11 @@ header{
 	width: 320px;
 	height: auto;
 	float: left;
+}
+.fab{
+	margin: 0 auto;
+	display: block;
+	text-align: center;
 }
 .strength-title{
 	font-size: 20px;
@@ -312,8 +316,8 @@ footer{
 		width: 100%;
 	}
 	.strength1,.strength2,.strength3{
-		width: 100%;
 		float: none;
+		margin: 0 auto;
 	}
 	.left-content,.right-content{
 		width: 100%;
