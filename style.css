@@ -246,21 +246,28 @@ header{
 	margin: 0 auto;
 }
 .left-contact-content{
-	width: 200px;
+	width: 130px;
     margin: 0 auto;
 }
-.c-content-title1,.c-content-title3{
+.c-content-title1,.c-content-title2,.c-content-title3{
 	font-size: 20px;
+	margin-bottom: 5px;
 }
 .c-content-title2{
-	font-size: 20px;
 	margin-top: 20px;
 }
 .right-contact-content{
-	width: 190px;
+	width: 180px;
 	margin: 0 auto;
+}
+.right-contact-content .fab{
+	display: inline-block;
 	font-size: 50px;
 	margin-right: 20px;
+}
+.right-contact-content .fab:last-child{
+	display: inline-block;
+	margin-right: 0;
 }
 footer{
 	width: 100%;
@@ -279,6 +286,7 @@ footer{
 	}
 	.hako{
 		width: 90%;
+		padding: 0 5%;
 	}
 	/* ヘッダー */
 	.logo{
@@ -336,6 +344,9 @@ footer{
 	}
 	.c-content-title3{
 		margin-top: 20px;
+	}
+	.right-contact-content .fab{
+	margin-right: 8px;
 	}
 	/* ハンバーガーメニュー*/
 	.menu-box{
